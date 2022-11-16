@@ -99,11 +99,11 @@ const mostrarIngredientes=() =>{
 
     for(let i=0;i< pizzas.length;i++){
 
-        console.log ( `La pizza ${pizzas[i].nombre} tiene como ingrediente:` )
+        console.log(`La pizza ${pizzas[i].nombre} tiene como ingrediente:`);
 
         for(let j=0;j< pizzas[i].ingredientes.length;j++){
             // console.log(`La pizza ${pizzas[i].nombre} tiene de ingrediente: ${pizzas[i].ingredientes[j]}`)
-            console.log ( ` - ${pizzas[i].ingredientes[j]}` )
+            console.log(`- ${pizzas[i].ingredientes[j]}`);
         }
     }
 
